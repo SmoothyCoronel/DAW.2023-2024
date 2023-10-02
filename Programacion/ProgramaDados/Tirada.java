@@ -25,11 +25,11 @@ public class Tirada {
          }
         
         //Otros métodos
-        public int Lanzar(){
-            Dado D1 = new Dado(1, 6);
+        public int Lanzar(int minimo, int maximo){
+            Dado D1 = new Dado(minimo, maximo);
             D1.lanzar();
             Dado1 = D1.iValor;
-            Dado D2 = new Dado(1, 6);
+            Dado D2 = new Dado(minimo, maximo);
             D2.lanzar();
             Dado2 = D2.iValor;
             
