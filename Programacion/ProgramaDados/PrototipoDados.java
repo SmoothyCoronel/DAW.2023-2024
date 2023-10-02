@@ -47,11 +47,11 @@ public class PrototipoDados {
         System.out.println("Ronda" +i);
          
         Tirada TJ1 = new Tirada();
-        System.out.println("Cantidad total J1: " + TJ1.Lanzar());
+        System.out.println("Cantidad total J1: " + TJ1.Lanzar(iValor, iRango));
 
 
         Tirada TJ2 = new Tirada();
-        System.out.println("Cantidad total J2: " + TJ2.Lanzar());
+        System.out.println("Cantidad total J2: " + TJ2.Lanzar(iValor, iRango));
 
 
         if(TJ1.haySeis() > TJ2.haySeis()){
