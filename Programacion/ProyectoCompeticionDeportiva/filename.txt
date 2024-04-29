@@ -1,0 +1,18 @@
+Datos de competicion: Codigo de competicion: aaa Descripcion de competición: aaa Porvincia de realizacion de competición: aaa
+
+ Datos del equipo: Codigo del equipo:123AB  Descripción del equipo: Equipo de Malaga Nombre del responsable: Alberto Apellidos del responsable: Ramos Ciudad de origen del equipo: Malaga Email del equipo: mala@gmail.com Telefono del equipo: 123456789
+Datos de jugador: Nombre de jugador: Samuel Apellidos de jugador: Fuagras Dorsal de jugador: 124A DNI de jugador: 6530123S Email de jugador: samu@gmail.com Telefono de jugador: 523768183 ¿Está activo?true
+Datos de jugador: Nombre de jugador: Andres Apellidos de jugador: Alcalaa Dorsal de jugador: 125A DNI de jugador: 5629275A Email de jugador: aal@gmail.com Telefono de jugador: 6899875461 ¿Está activo?false
+Datos de jugador: Nombre de jugador: lucia Apellidos de jugador: del pino Dorsal de jugador: 123A DNI de jugador: 1234567L Email de jugador: luci@gmail.com Telefono de jugador: 123458777 ¿Está activo?true
+
+ Datos del equipo: Codigo del equipo:124BC  Descripción del equipo: Equipo de Extremadura Nombre del responsable: Jose Apellidos del responsable: Martin Ciudad de origen del equipo: Extremadura Email del equipo: extre@gmail.com Telefono del equipo: 123456781
+Datos de jugador: Nombre de jugador: Pablo Apellidos de jugador: Velazquez Dorsal de jugador: 123B DNI de jugador: 352785P Email de jugador: pablo@gmail.com Telefono de jugador: 123458777 ¿Está activo?true
+Datos de jugador: Nombre de jugador: Samuel Apellidos de jugador: Rubio Dorsal de jugador: 124B DNI de jugador: 013740670S Email de jugador: samuRu@gmail.com Telefono de jugador: 523768183 ¿Está activo?false
+Datos de jugador: Nombre de jugador: Sandra Apellidos de jugador: Suma Dorsal de jugador: 125B DNI de jugador: 21462483S Email de jugador: sasu@gmail.com Telefono de jugador: 6899875461 ¿Está activo?false
+
+ Datos del equipo: Codigo del equipo:125CD  Descripción del equipo: Equipo de Granada Nombre del responsable: Carlos Apellidos del responsable: Claveles Ciudad de origen del equipo: Granada Email del equipo: grana@gmail.com Telefono del equipo: 123456782
+Datos de jugador: Nombre de jugador: Alvaro Apellidos de jugador: Medina Dorsal de jugador: 123C DNI de jugador: 354785A Email de jugador: alvarito@gmail.com Telefono de jugador: 123459977 ¿Está activo?false
+
+ Datos del equipo: Codigo del equipo:126DE  Descripción del equipo: Equipo de Valencia Nombre del responsable: MariaJose Apellidos del responsable: Cantos Ciudad de origen del equipo: Valencia Email del equipo: vale@gmail.com Telefono del equipo: 123456783
+
+ Datos del equipo: Codigo del equipo:127EF  Descripción del equipo: Equipo de Murcia Nombre del responsable: Nacho Apellidos del responsable: Torres Ciudad de origen del equipo: Murcia Email del equipo: murci@gmail.com Telefono del equipo: 123456784
