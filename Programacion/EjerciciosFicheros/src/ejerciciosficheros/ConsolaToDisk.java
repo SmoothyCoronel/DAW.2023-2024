@@ -46,15 +46,18 @@ public class ConsolaToDisk {
         return n;
     }
     
-    public static void escribeFichero(String ruta, ArrayList<String> texto) throws IOException {
+    public static void escribeFichero(String ruta, ArrayList<String> texto) {
         PrintWriter out = null;
         try {
             //Abrir el fichero
-            out = new PrintWriter(new FileWriter(ruta));
+            out = new PrintWriter(new FileWriter(ruta, true));
             //Escribe los datos en el fichero
             for(int i = 0; i < texto.size(); i++){
                 out.println(texto.get(i));
             }
+        } catch (IOException e){
+            System.out.println("Algo salió mal");
+            
         }finally {
             if(out != null){
                 out.close();
@@ -62,7 +65,7 @@ public class ConsolaToDisk {
         }
     }
     
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
         // TODO code application logic here
         String texto, ruta;
         boolean dentro = true;
@@ -71,14 +74,14 @@ public class ConsolaToDisk {
         
         System.out.println("");
         System.out.println("Ruta de fichero de salida a grabar");
-        ruta = leerPalabra();
+        ruta = leerPalabra()+".txt";
         
         //Tomar todo el texto para el archivo y cerrar 
         while(dentro == true){
             System.out.println("");
-            System.out.println("Texto a meter en fichero");
+            System.out.println("Texto a meter en fichero (Escribe 'salir' para acabar de escribir");
             texto = leerPalabra();
-            if(texto.equals("")){
+            if(texto.equals("salir")){
                 dentro = false;
             }else{
                 i++;
