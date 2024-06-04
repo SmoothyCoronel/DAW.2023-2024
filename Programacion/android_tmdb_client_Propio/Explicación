@@ -1,0 +1,4 @@
+Proyecto de Java en Android Studio para la conexión a una página web y tras peticiones acceder a sus datos y mostrarlos en una lista interactiva. 
+Solo se han enviado los datos referidos a la creación del programa en .java en la carpeta java y los cambios de vista en .xml.
+Se debe tener en cuenta que la aplicación funcionará si se le estable estos datos a un proyecto nuevo de android el cual solo tirará si la key con la que es posible 
+acceder al contenido de la aplicación es cambiada registrandose en esta.
